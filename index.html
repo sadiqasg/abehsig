@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abeh Homepage</title>
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet">
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-uppercase" href="/">
+                        abeh signature
+                        <br>
+                        apartments
+                    </a>
+                    <a href="#" class="close"></a>
+                    <div class="d-none d-sm-none d-lg-block brand-icon-section mx-auto order-0 w-75 d-flex justify-content-end">
+                        <div class="highlight-main brand-icon d-flex align-items-center justify-content-center">
+                            <div class="dropdown">
+                                <i
+                                    class="fas fa-th dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-mdb-toggle="dropdown"
+                                    aria-expanded="false"
+                                    onclick="closeNav()"
+                                ></i>
+                                <ul class="dropdown-menu highlight-main" aria-labelledby="dropdownMenuButton">
+                                    <ul class="dropdown-list">
+                                        <li>
+                                            <a class="btn shadow-none menu-header">On This Property</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./one.html">One Bedroom Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#navbarExample01"
+                        aria-controls="navbarExample01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarExample01">
+                        <!-- <div class="pt-1"> -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
+                            <div class="d-lg-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./one.html">One Bedroom Apartment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./two.html">Two Bedroom Apartment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./three.html">Three Bedroom Apartment</a>
+                                </li>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-sm btn-outline-main" href="#contact-form">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar -->
+            <!-- Background image -->
+            <div class="p-5 text-center bg-image" style="
+                background-image: url('./assets/images/AbehSignature/converted.jpg');
+                height: 500px;
+              ">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-white">
+                            <h1 class="mb-3">Abeh Signature Apartments</h1>
+                            <a
+                                class="btn 
+                            btn-outline-light 
+                            btn-lg"
+                                data-mdb-toggle="modal"
+                                data-mdb-target="#videoModal"
+                                href="#!"
+                                role="button"
+                            >
+                                Play Video
+                            </a
+                    >
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div
+                    class="modal fade"
+                    id="videoModal"
+                    tabindex="-1"
+                    aria-labelledby="videoModalLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9">
+                                    <video src="./assets/images/AbehSignature/WhatsApp Video 2021-01-28 at 14.16.17.mp4" controls></video>
+                                    <!-- <iframe
+                                      src="./assets/images/AbehSignature/WhatsApp Video 2021-01-28 at 14.16.17.mp4"
+                                      title="home video"
+                                      allowfullscreen
+                                      autoplay="false"
+                                    ></iframe> -->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-sm btn-danger" data-mdb-dismiss="modal">
+                                    X
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Background image -->
+        </header>
+        <main>
+            <section id="about" class="container text-center my-5 py-5">
+                <h3>About Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem facilisis ipsum interdum imperdiet. Enim, accumsan id in sed posuere. Bibendum et amet orci phasellus vel est, laoreet nisl. Mattis aenean et integer lacus ultricies morbi.
+                </p>
+            </section>
+            <section id="projects" class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="card-body" id="our-projects">
+                                <div class="flex-column">
+                                    <h5 class="card-title" id="card-title-main">On This Property</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem facilisis ipsum interdum imperdiet. Enim, accumsan id in sed posuere. Bibendum et amet orci phasellus vel est,
+                                         laoreet nisl. Mattis aenean et integer lacus ultricies morbi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-img h-100" data-aos="fade-left" data-aos-duration="1500">
+                            <img src="./assets/images/AbehSignature/1 bed/one-1.jpg" class="card-img-top d-flex align-self-center" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    One Bedroom
+                                    <span class="caret">
+                                        <a href="./one.html">
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-img h-100" data-aos="fade-up-right" data-aos-duration="1500">
+                            <img src="./assets/images/AbehSignature/2 bed/IMG_3070.jpg" class="card-img-top d-flex align-self-center" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    Two Bedroom
+                                    <span class="caret">
+                                        <a href="./two.html">
+                                            <i class="fas fa-caret-right"></i>
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-img h-100" data-aos="fade-up-left" data-aos-duration="1500">
+                            <img src="./assets/images/AbehSignature/3 bed/IMG_3133.jpg" class="card-img-top d-flex align-self-center" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    Three Bedroom
+                                    <span class="caret">
+                                        <a href="./three.html">
+                                            <i class="fas fa-caret-right"></i>
+                                            <i class="fas fa-caret-right"></i>
+                                            <i class="fas fa-caret-right"></i>
+                                        </a>
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="amenities">
+                <h4 class="main-clr-text text-center text-uppercase mt-3 mb-1">Amenities</h4>
+                <hr class="line">
+                <div id="amenities-images">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="text-center">Office Space</h6>
+                            <img src="./assets/images/AbehSignature/IMG_1908.jpg" class="img-fluid rounded hover-shadow" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="text-center">Swimming Pool</h6>
+                            <img src="./assets/images/AbehSignature/IMG_1933.jpg" class="img-fluid rounded hover-shadow" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="text-center">Car Parking</h6>
+                            <img src="./assets/images/AbehSignature/IMG_1877.jpg" class="img-fluid rounded hover-shadow" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <h4 class="my-5">Gallery</h4>
+            </div>
+            <section id="gallery">
+                <div class="gallery" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="./assets/images/AbehSignature/DJI_0264.JPG" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1855.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1863.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1877.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1880.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1884.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1888.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1891.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1903.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1906.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1908.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1914.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1916.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1919.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1921.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1925.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1928.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1933.jpg" class="img-fluid rounded hover-shadow" alt="">
+                    <img src="./assets/images/AbehSignature/IMG_1936.jpg" class="img-fluid rounded hover-shadow" alt="">
+                </div>
+            </section>
+            <section id="contact" class="container">
+                <div class="row">
+                    <div class="col-md-6 contact">
+                        <h4>Contact Us</h4>
+                        <p>
+                            Feel Free to Contact Us
+                            <br>
+                            if You have Any Questions
+                        </p>
+                        <ul class="list-group">
+                            <li>
+                                CocoWalk, 3015 Grand Avenue,
+                                <br>
+                                Miami, FL 33133, USA
+                            </li>
+                            <li>
+                                <strong>Phone:</strong>
+                                123-456-7890
+                            </li>
+                            <li>
+                                <strong>Fax:</strong>
+                                098-765-4321
+                            </li>
+                            <li>
+                                <strong>Email:</strong>
+                                info@yoursite.com
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="contact-form">
+                            <!-- Name input -->
+                            <div class="form-group mb-4">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    class="form-control"
+                                    placeholder="Name"
+                                >
+                                <!-- <label class="form-label" for="name">Name</label> -->
+                            </div>
+                            <!-- Email input -->
+                            <div class="form-group mb-4">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Email"
+                                >
+                                <!-- <label class="form-label" for="email">Email</label> -->
+                            </div>
+                            <!-- Message input -->
+                            <div class="form-group mb-4">
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    rows="4"
+                                    placeholder="Message"
+                                ></textarea>
+                                <!-- <label class="form-label" for="message">Message</label> -->
+                            </div>
+                            <!-- Submit button -->
+                            <button type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="main-clr-bg mt-5 py-3">
+            <div class="text-center">
+                <h5 class="text-white">&copy; 2021. Abeh Signature</h5>
+            </div>
+        </footer>
+        <!-- MDB -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
