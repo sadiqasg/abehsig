@@ -237,7 +237,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact-form">
+                        <form id="contact-form" method="POST" action="contact.php">
                             <!-- Name input -->
                             <div class="form-group mb-4">
                                 <input

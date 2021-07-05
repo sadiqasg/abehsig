@@ -384,12 +384,13 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact-form">
+                        <form id="contact-form" method="POST" action="contact.php">
                             <!-- Name input -->
                             <div class="form-group mb-4">
                                 <input
                                     type="text"
-                                    id="name"
+                                    id="username"
+                                    name="username"
                                     class="form-control"
                                     placeholder="Name"
                                 >
@@ -400,6 +401,7 @@
                                 <input
                                     type="email"
                                     id="email"
+                                    name="email"
                                     class="form-control"
                                     placeholder="Email"
                                 >
@@ -410,6 +412,7 @@
                                 <textarea
                                     class="form-control"
                                     id="message"
+                                    name="message"
                                     rows="4"
                                     placeholder="Message"
                                 ></textarea>

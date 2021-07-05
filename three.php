@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Abeh One bedroom</title>
+        <title>Abeh Three bedroom</title>
         <!-- Font Awesome -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
         <!-- Google Fonts -->
@@ -47,13 +47,13 @@
                                             <a class="btn shadow-none menu-header">On This Property</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item active" href="./one.html">One Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./one.html">One Bedroom Apartment</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
+                                            <a class="dropdown-item active" href="./three.html">Three Bedroom Apartment</a>
                                         </li>
                                     </ul>
                                 </ul>
@@ -76,13 +76,13 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
                             <div class="d-lg-none">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="./one.html">One Bedroom Apartment</a>
+                                    <a class="nav-link" href="./one.html">One Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./two.html">Two Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./three.html">Three Bedroom Apartment</a>
+                                    <a class="nav-link active" href="./three.html">Three Bedroom Apartment</a>
                                 </li>
                             </div>
                             <li class="nav-item">
@@ -95,7 +95,7 @@
             <!-- Navbar -->
             <section class="container" id="header-text">
                 <h1>
-                    One
+                    Three
                     <br>
                     Bedroom Apartment
                 </h1>
@@ -130,21 +130,19 @@
                         <div class="container" id="property-desc-text">
                             <h5 class="text-uppercase">property description</h5>
                             <p>
-                                Reasonably sized and tastefully decorated and furnished 1-bedroom apartment.
+                                Reasonably sized and tastefully decorated and furnished 3-bedroom apartment with all rooms ensuite.
                             </p>
                             <p>
-                                It has one bathroom, one living room and a kitchenette.<br/>
+                                It has one living room (with a dining area) and a kitchen.<br/>
                                 <em><small>*All rooms have air-conditioning</small></em>
                             </p>
-                            <p class="m-0">
-                                Location: Wuse 2, Abuja
-                            </p>
-                            <p class="m-0">Electricity/Water: Available</p>
+                            <p class="m-0">Location: Wuse 2, Abuja</p>
+                            <p class="m-0">Electricity/Water: Yes</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div id="property-desc-img">
-                            <img src="./assets/images/AbehSignature/1 bed/one-1.jpg" class="img-fluid" alt="">
+                            <img src="./assets/images/AbehSignature/3 bed/IMG_3169.jpg" class="img-fluid ripple" alt="">
                         </div>
                     </div>
                 </div>
@@ -173,39 +171,33 @@
                 </div>
                 <div class="container gallery">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img
-                                id="main"
-                                src="./assets/images/AbehSignature/1 bed/one-1.jpg"
-                                class="img-fluid hover-shadow"
-                                alt=""
-                            >
+                      <div class="col-md-6">
+                        <img id="main" src="./assets/images/AbehSignature/3 bed/IMG_3133.jpg" class="img-fluid hover-shadow" alt="">
+                      </div>
+                      <div class="col-md-6">
+                        <p><em>Scroll down for more images. Click the image(s) to preview</em></p>
+                        <div id="images">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3133.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3112.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3114.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3115.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3119.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3122.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3123.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3129.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3131.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3133.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3134.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3138.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3143.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3146.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3153.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3161.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3162.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3166.jpg" class="img-fluid" alt="">
+                          <img onclick="change(this.src)" src="./assets/images/AbehSignature/3 bed/IMG_3169.jpg" class="img-fluid" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <p>
-                                <em>Click the image(s) to preview on the left</em>
-                            </p>
-                            <div id="images">
-                                <img
-                                    onclick="change(this.src)"
-                                    src="./assets/images/AbehSignature/1 bed/one-1.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                                <img
-                                    onclick="change(this.src)"
-                                    src="./assets/images/AbehSignature/1 bed/one-2.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                                <img
-                                    onclick="change(this.src)"
-                                    src="./assets/images/AbehSignature/1 bed/one-3.jpg"
-                                    class="img-fluid"
-                                    alt=""
-                                >
-                            </div>
-                        </div>
+                      </div>
                     </div>
                 </div>
             </section>
@@ -237,7 +229,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact-form">
+                        <form id="contact-form" method="POST" action="contact.php">
                             <!-- Name input -->
                             <div class="form-group mb-4">
                                 <input
