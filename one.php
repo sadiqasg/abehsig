@@ -47,13 +47,13 @@
                                             <a class="btn shadow-none menu-header">On This Property</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item active" href="./one.html">One Bedroom Apartment</a>
+                                            <a class="dropdown-item active" href="./one.php">One Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./two.php">Two Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./three.php">Three Bedroom Apartment</a>
                                         </li>
                                     </ul>
                                 </ul>
@@ -76,13 +76,13 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
                             <div class="d-lg-none">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="./one.html">One Bedroom Apartment</a>
+                                    <a class="nav-link active" href="./one.php">One Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./two.html">Two Bedroom Apartment</a>
+                                    <a class="nav-link" href="./two.php">Two Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./three.html">Three Bedroom Apartment</a>
+                                    <a class="nav-link" href="./three.php">Three Bedroom Apartment</a>
                                 </li>
                             </div>
                             <li class="nav-item">
@@ -107,17 +107,17 @@
         <main>
             <section id="stats" class="container text-center my-3 py-3">
                 <div class="row stats">
-                    <div class="col-4">
+                    <!-- <div class="col-4">
                         <i class="fas fa-th"></i>
                         <h6 class="stats-number my-0">472</h6>
                         <p class="mt-0 uppercase">Square Meters</p>
-                    </div>
-                    <div class="col-4">
+                    </div> -->
+                    <div class="col-6">
                         <i class="fas fa-car-side"></i>
                         <h6 class="stats-number my-0">10</h6>
                         <p class="mt-0 uppercase">Car Parkings</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6">
                         <i class="fas fa-building"></i>
                         <h6 class="stats-number my-0">2</h6>
                         <p class="mt-0 uppercase">Floors</p>

@@ -186,7 +186,8 @@ nav {
   height: 220px;
 }
 .gallery img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  overflow-y: hidden;
 }
 
 @media (max-width: 500px) {
@@ -201,7 +202,8 @@ nav {
   }
 
   .card-title {
-    width: 10em;
+    /* width: 10em; */
+    width: fit-content;
   }    
 }
 

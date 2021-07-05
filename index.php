@@ -46,13 +46,13 @@
                                             <a class="btn shadow-none menu-header">On This Property</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./one.html">One Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./one.php">One Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./two.php">Two Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./three.php">Three Bedroom Apartment</a>
                                         </li>
                                     </ul>
                                 </ul>
@@ -75,13 +75,13 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
                             <div class="d-lg-none">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./one.html">One Bedroom Apartment</a>
+                                    <a class="nav-link" href="./one.php">One Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./two.html">Two Bedroom Apartment</a>
+                                    <a class="nav-link" href="./two.php">Two Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./three.html">Three Bedroom Apartment</a>
+                                    <a class="nav-link" href="./three.php">Three Bedroom Apartment</a>
                                 </li>
                             </div>
                             <li class="nav-item">
@@ -180,7 +180,7 @@
                                 <h6 class="card-title">
                                     One Bedroom
                                     <span class="caret">
-                                        <a href="./one.html">
+                                        <a href="./one.php">
                                             <i class="fas fa-caret-right"></i>
                                         </a>
                                     </span>
@@ -195,7 +195,7 @@
                                 <h6 class="card-title">
                                     Two Bedroom
                                     <span class="caret">
-                                        <a href="./two.html">
+                                        <a href="./two.php">
                                             <i class="fas fa-caret-right"></i>
                                             <i class="fas fa-caret-right"></i>
                                         </a>
@@ -211,7 +211,7 @@
                                 <h6 class="card-title">
                                     Three Bedroom
                                     <span class="caret">
-                                        <a href="./three.html">
+                                        <a href="./three.php">
                                             <i class="fas fa-caret-right"></i>
                                             <i class="fas fa-caret-right"></i>
                                             <i class="fas fa-caret-right"></i>
@@ -242,7 +242,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h6 class="text-center">Car Parking</h6>
-                            <img src="./assets/images/AbehSignature/IMG_1877.jpg" class="img-fluid rounded hover-shadow" alt="">
+                            <img src="./assets/images/AbehSignature/DJI_0264.JPG" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                     </div>
                 </div>
