@@ -3,7 +3,7 @@
 if($_POST["message"]) {
   $name = $_POST["username"];
   $email = $_POST["email"];
-  $to = "Abubakar Sambo <sadiqasg@gmail.com>";
+  $to = "sadiqasg@gmail.com";
   $subject = "$name via Abeh Signature";
 
   // $headers = "From: $email\r\nReply-To: $email\r\nReturn-Path: $email\r\n";
