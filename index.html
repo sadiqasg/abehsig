@@ -419,7 +419,8 @@
                                 <!-- <label class="form-label" for="message">Message</label> -->
                             </div>
                             <!-- Submit button -->
-                            <button type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4">Send Message</button>
+                            <!-- <button type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4">Send Message</button> -->
+                            <input type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4" value="Send Message" />
                         </form>
                     </div>
                 </div>
