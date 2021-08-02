@@ -5,6 +5,8 @@ $(function () {
 
   $("#contact-form").on("submit", function (e) {
     e.preventDefault();
+    $("#sendMsg").val('sending...');
+
     let data = {
       name: $("#username").val(),
       email: $("#email").val(),
@@ -15,15 +17,21 @@ $(function () {
       return alert("You can't submit an empty form!");
     }
 
+    setTimeout(() => {
+      $("#sendMsg").val('Send message');
+      alert("Message Sent");
+      $("#contact-form").trigger("reset");
+    }, 3000);
+
     $.ajax({
-      type: "GET",
+      type: "POST",
       url: `${url}`,
       dataType: "json",
-      data : JSON.stringify(data),
+      data : data,
       success: result => {
-        console.log('Email sent!');
+        location.replace('./success.html');
       },
-      error: err => console.log("error", err)
+      error: err => alert("error", err)
     });
   })
 

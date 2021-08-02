@@ -47,13 +47,13 @@
                                             <a class="btn shadow-none menu-header">On This Property</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item active" href="./one.php">One Bedroom Apartment</a>
+                                            <a class="dropdown-item active" href="./one.html">One Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./two.php">Two Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="./three.php">Three Bedroom Apartment</a>
+                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
                                         </li>
                                     </ul>
                                 </ul>
@@ -76,13 +76,13 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
                             <div class="d-lg-none">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="./one.php">One Bedroom Apartment</a>
+                                    <a class="nav-link active" href="./one.html">One Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./two.php">Two Bedroom Apartment</a>
+                                    <a class="nav-link" href="./two.html">Two Bedroom Apartment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./three.php">Three Bedroom Apartment</a>
+                                    <a class="nav-link" href="./three.html">Three Bedroom Apartment</a>
                                 </li>
                             </div>
                             <li class="nav-item">
@@ -133,8 +133,11 @@
                                 Reasonably sized and tastefully decorated and furnished 1-bedroom apartment.
                             </p>
                             <p>
-                                It has one bathroom, one living room and a kitchenette.<br/>
-                                <em><small>*All rooms have air-conditioning</small></em>
+                                It has one bathroom, one living room and a kitchenette.
+                                <br>
+                                <em>
+                                    <small>*All rooms have air-conditioning</small>
+                                </em>
                             </p>
                             <p class="m-0">
                                 Location: Wuse 2, Abuja
@@ -222,8 +225,10 @@
                             <li>
                                 Abeh Signature Apartments,
                                 <br>
-                                1 Mekong Close.<br/>
-                                Maitama,<br/>
+                                1 Mekong Close.
+                                <br>
+                                Maitama,
+                                <br>
                                 Abuja.
                             </li>
                             <li class="mt-2">
@@ -237,7 +242,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <form id="contact-form" method="POST" action="contact.php">
+                        <form id="contact-form">
                             <!-- Name input -->
                             <div class="form-group mb-4">
                                 <input
@@ -269,7 +274,13 @@
                                 <!-- <label class="form-label" for="message">Message</label> -->
                             </div>
                             <!-- Submit button -->
-                            <button type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4">Send Message</button>
+                            <input
+                                id="sendMsg"
+                                type="submit"
+                                class="btn w-50 shadow-none btn-main btn-block mb-4"
+                                value="Send Message"
+                            >
+                            <!-- <button type="submit" class="btn w-50 shadow-none btn-main btn-block mb-4">Send Message</button> -->
                         </form>
                     </div>
                 </div>
@@ -280,6 +291,8 @@
                 <h5 class="text-white">&copy; 2021. Abeh Signature</h5>
             </div>
         </footer>
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <!-- MDB -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
         <!-- AOS -->
@@ -288,5 +301,6 @@
             AOS.init();
         </script>
         <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/email.js"></script>
     </body>
 </html>
